@@ -27,7 +27,7 @@ This project uses the same Northwind sample database as the SQL analysis project
 
 ## Dashboard Overview
 
-Full dashboard screenshot:
+📊 [Open the interactive dashboard (.pbix file)](dashboards/dashboard_full.pbix)
 
 <p align="center">
   <img width="1445" height="810" alt="image" src="https://github.com/user-attachments/assets/25c4da67-0d38-4346-9fc5-2a3d7deb04ea" />
@@ -37,22 +37,38 @@ Full dashboard screenshot:
 The top of the dashboard shows three key metrics at a glance: Total Revenue ($448.39M), Total Orders (16K), and Average Order Value ($27.54K) across the full dataset.
 
 ### Revenue Trend by Year
-![Revenue trend](images/revenue_trend.png)
+
+<p align="center">
+  <img width="1147" height="640" alt="image" src="https://github.com/user-attachments/assets/03bb7690-74e2-4ee9-85b3-25d97bd5d0f5" />
+</p>
+
 - What it shows: Total revenue by year, from 2012 through 2023.
 - Finding: Revenue holds steady between roughly $38M and $41.4M from 2013 through 2022, with lower totals in 2012 and 2023 due to partial-year data — consistent with the finding from the SQL analysis.
 
 ### Total Revenue by Category
-![Top categories](images/top_categories.png)
+
+<p align="center">
+  <img width="1150" height="644" alt="image" src="https://github.com/user-attachments/assets/012776f1-5618-425f-83aa-2958bd4b3e61" />
+</p>
+
 - What it shows: Total revenue broken down by product category, sorted highest to lowest.
 - Finding: Beverages leads at roughly $92M, followed by Confections and Meat/Poultry, with revenue fairly evenly distributed across the remaining categories — matching the SQL project's findings exactly.
 
 ### Total Revenue by Country
-![Revenue by country](images/revenue_by_country.png)
+
+<p align="center">
+  <img width="1149" height="645" alt="image" src="https://github.com/user-attachments/assets/ba6e7231-cd4d-465a-83c7-5857d9dda048" />
+</p>
+
 - What it shows: A map visual sizing revenue by customer country.
 - Finding: Revenue is concentrated in Europe and North America, with the largest bubbles clustered in those regions, consistent with the customer base represented in the dataset.
 
 ### Total Revenue by Company
-![Top customers](images/top_customers.png)
+
+<p align="center">
+  <img width="1151" height="645" alt="image" src="https://github.com/user-attachments/assets/dc391f3f-1f8f-4d6f-8702-28778a06826f" />
+</p>
+
 - What it shows: The top 10 customers by total revenue.
 - Finding: B's Beverages is the top customer at roughly $6.15M, consistent with the SQL project's findings. While building this chart, two customer records sharing the placeholder company name "IT" (CustomerIDs Val2 and VALON) initially inflated into one combined bar — the same data quality issue identified in the SQL analysis. A calculated column was used to append the CustomerID only where a company name wasn't unique, correctly splitting these into two distinct, appropriately-sized bars while keeping all other labels clean.
 
