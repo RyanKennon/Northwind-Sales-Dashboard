@@ -27,7 +27,8 @@ This project uses the same Northwind sample database as the SQL analysis project
 
 ## Dashboard Overview
 
-📊 [Open the interactive dashboard (.pbix file)](dashboards/dashboard_full.pbix)
+📊 [Download the interactive dashboard (.pbix file)](dashboards/dashboard_full.pbix) 
+— requires [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads) to open
 
 <p align="center">
   <img width="1445" height="810" alt="image" src="https://github.com/user-attachments/assets/25c4da67-0d38-4346-9fc5-2a3d7deb04ea" />
