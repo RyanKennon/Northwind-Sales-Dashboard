@@ -79,10 +79,8 @@ All visuals on the dashboard are cross-filterable — clicking on a category, co
 
 ## Next Steps
 
-With more time, this dashboard could be extended with a dedicated page for employee or shipping performance, drill-through pages for individual customers or categories, or a year/category slicer to let users filter the whole dashboard interactively rather than relying solely on cross-filtering. This dashboard also sets up the next project in this portfolio series, an end-to-end analysis combining data cleaning, analysis, and visualization into a single workflow.
+With more time, this dashboard could be extended with a dedicated page for employee or shipping performance, drill-through pages for individual customers or categories, or a year/category slicer to let users filter the whole dashboard interactively rather than relying solely on cross-filtering. This project is the second step in a broader data analytics portfolio, followed by an end-to-end analysis applying these skills to a new, messier real-world dataset.
 
 ---
 
 ⬅️ **Previous project:** [Northwind SQL Business Analysis](https://github.com/RyanKennon/sql-business-analysis-northwind)
-
-➡️ **Next project:** End-to-End Data Analysis Project (coming soon)
